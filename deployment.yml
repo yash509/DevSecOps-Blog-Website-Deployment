@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: blog-application-deployment
+  name: blog-website-deployment
 spec:
   replicas: 2  # Number of desired replicas
   selector:
     matchLabels:
-      app: blog-application
+      app: blog-webapp
   template:
     metadata:
       labels:
-        app: blog-application
+        app: blog-webapp
     spec:
       containers:
-      - name: blog-application
-        image: rameshkumarverma/blog-application
+      - name: blog-webapp
+        image: yash5090/blog-webapp:latest
         ports:
-        - containerPort: 80
+        - containerPort: 5000
