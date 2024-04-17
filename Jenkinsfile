@@ -183,6 +183,7 @@ pipeline {
                        sh 'docker-scout quickview yash5090/blog-webapp:latest'
                        sh 'docker-scout cves yash5090/blog-webapp:latest'
                        sh 'docker-scout recommendations yash5090/blog-webapp:latest'
+                       sh 'docker-scout attestation yash5090/blog-webapp:latest'
                    }
                 }   
             }
