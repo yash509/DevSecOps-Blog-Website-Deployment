@@ -1,4 +1,11 @@
-# Blog Application
+# DevSecOps-Blog-Website-Deployment
+
+<div align="center">
+
+<img align="center" alt="coding" width="200000" src="https://github.com/yash509/DevSecOps-Blog-Website-Deployment/blob/main/Blog-website-Deployment.jpg">
+</div>
+
+
 
 ## Description
 Blog Application is an application where user can add a new blog, edit it, delete it as well as view other blogs and make changes in them. 
